@@ -1,0 +1,91 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    margin: auto;
+}
+.container {
+    background-color: white;
+    border-radius: 5%;
+    width:406px ;
+    height:630px ;
+    text-align: center;
+    margin: 92px auto;   
+}
+.container img {
+    width: 406px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+}  
+h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 27px;
+    font-weight: 900;
+    margin-top: 38px;
+    margin-bottom: 5px;
+} 
+.container p {
+    color:hsl(224, 23%, 55%);
+} 
+.product-detail{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 350px;
+    height: 90px;
+}
+.product-detail img {/*img es el hijo de la clase product-detail porque el espacio entre detail y img determina un hijo*/
+    width: 50px; 
+    margin:auto 20px;
+    display: flex;
+}
+.product-detail p b {
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);   
+}
+.product-detail p {
+    color:hsl(224, 23%, 55%);
+}  
+.tercero {
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 98px;
+    cursor: pointer;
+}
+.button1 {
+    display: block;
+    background-color: hsl(224, 23%, 55%);
+    color:hsl(225, 100%, 98%);
+    width: 350px;
+    height: 46px;
+    box-sizing:border-box;
+    padding: 13px;
+    margin:auto;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.button2 {
+    font-size: 14px;
+    font-weight: 700; 
+}
+a, a:visited { /*todos los anco y los que tengan estado visitado*/
+    color:hsl(224, 23%, 55%);
+    /* text-decoration: none; */
+}
+.card-description{
+    width: 350px;
+    margin:auto;
+}
+a.button1:visited {  /*anco (link) de la clase button1 que sean visitados tendran color blanco*/
+    color:white;
+}
+/* a:hover { est hace que un link cambie de color cuando pasamos el mouse x encima
+    color:brown; 
+} */
+/* .tercero a { esto me pone el link (anco <a>) en color rojo
+    color: red;
+} */
